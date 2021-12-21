@@ -1,0 +1,43 @@
+{
+  "name": "black-rabbit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gulp --dev",
+    "dev": "gulp dev --dev",
+    "build": "gulp build --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inject-string": "^1.1.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.63.0",
+    "webpack-stream": "^7.0.0",
+    "yargs": "^15.3.1"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "lazysizes": "^5.3.2",
+    "normalize.css": "^8.0.1",
+    "parallax-js": "^3.1.0",
+    "swiper": "^7.3.1",
+    "wow.js": "^1.2.2"
+  }
+}

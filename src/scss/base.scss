@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nominee', sans-serif;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1025px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
